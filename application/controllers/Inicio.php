@@ -15,9 +15,7 @@ class Inicio extends CI_Controller {
 
 	public function index()
 	{
-		$v1=$_GET['var1'];
-		echo $v1;
-		return;
+		//$v1=$_GET['var1'];
 		$this->load->view('v_index');
 	}
 

@@ -7,7 +7,18 @@ function enviarEncuesta(){
 	var suggestions = $('#suggestions').val();
 	var future 		= $('#future').val();
 	var rate 		= $(".button-select").find("span").text();
-	//console.log(rate);
+	if(valor.length < 9){ 
+		return;
+	}
+	if(suggestions == null) {
+		return;
+	}
+	if(future == null) {
+		return;
+	}
+	if(rate == null) {
+		return;
+	}
 	$.ajax({
 		data  : { valor 	  : valor,
 				  suggestions : suggestions,
