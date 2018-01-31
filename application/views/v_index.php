@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="utf-8">
+    <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible"  content="IE=edge">
     <meta name="viewport"               content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
     <meta name="description"            content="Proyecto de desarrollo de un producto wizard online que tenga un quiz y con una unica solucion que es SAP Business One">
@@ -10,25 +10,25 @@
     <meta name="date"                   content="January 25, 2018"/>
     <meta name="language"               content="es">
     <meta name="theme-color"            content="#000000">
-	<title>Encuestas Merino</title>
+    <title>Encuestas Merino</title>
     <link rel="shortcut icon" href="<?php echo RUTA_IMG?>logo/favicon.png">
     <link rel="stylesheet"    href="<?php echo RUTA_PLUGINS?>bootstrap/bootstrap.min.css?v=<?php echo time();?>">
     <link rel="stylesheet"    href="<?php echo RUTA_PLUGINS?>bootstrap-select/css/bootstrap-select.min.css?v=<?php echo time();?>">
     <link rel="stylesheet"    href="<?php echo RUTA_PLUGINS?>datetimepicker/css/bootstrap-material-datetimepicker.css?v=<?php echo time();?>">
     <link rel="stylesheet"    href="<?php echo RUTA_PLUGINS?>mdl/material.indigo.min.css?v=<?php echo time();?>">
     <link rel="stylesheet"    href="<?php echo RUTA_PLUGINS?>mdl/material.min.css?v=<?php echo time();?>">
-	<link rel="stylesheet"    href="<?php echo RUTA_PLUGINS?>toaster/toastr.css?v=<?php echo time();?>">
+    <link rel="stylesheet"    href="<?php echo RUTA_PLUGINS?>toaster/toastr.css?v=<?php echo time();?>">
     <link rel="stylesheet"    href="<?php echo RUTA_FONTS?>font-awesome.min.css?v=<?php echo time();?>">
     <link rel="stylesheet"    href="<?php echo RUTA_FONTS?>material-icons.css?v=<?php echo time();?>">
     <link rel="stylesheet"    href="<?php echo RUTA_FONTS?>engagement.css?v=<?php echo time();?>">
     <link rel="stylesheet"    href="<?php echo RUTA_FONTS?>roboto.css?v=<?php echo time();?>">
-	<link rel="stylesheet"    href="<?php echo RUTA_CSS?>m-p.min.css?v=<?php echo time();?>">
-	<link rel="stylesheet"    href="<?php echo RUTA_CSS?>index.css?v=<?php echo time();?>">
+    <link rel="stylesheet"    href="<?php echo RUTA_CSS?>m-p.min.css?v=<?php echo time();?>">
+    <link rel="stylesheet"    href="<?php echo RUTA_CSS?>index.css?v=<?php echo time();?>">
 </head>
 <body>
     <div class="fondo-imagen"></div>
-	<section class="section">
-		<div class="mdl-container">
+    <section class="section">
+        <div class="mdl-container">
             <div class="logo-home">
                 <img src="<?php echo RUTA_IMG?>logo/logo_blanco.png">
             </div>
@@ -39,7 +39,7 @@
                     <p>Survey</p>
                 </div>
                 <div class="preguntas m-t-20">
-                    <p class="title-question" id="question1"><strong>1.</strong> Which session was more relevant for you?</p>
+                    <p class="title-question"><strong>1.</strong> Which session was more relevant for you?</p>
                     <div class="col-xs-12 col-sm-3">
                         <div class="mdl-check-button">
                             <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="session-1">
@@ -194,7 +194,7 @@
                     </div>
                 </div>
                 <div class="preguntas">
-                    <p class="title-question" id="question2"><strong>2.</strong> Which topic do you think we should focus more?</p>
+                    <p class="title-question"><strong>2.</strong> Which topic do you think we should focus more?</p>
                     <div class="col-xs-12 col-sm-3">
                         <div class="mdl-check-button">
                             <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="topic-1">
@@ -353,8 +353,8 @@
                     <div class="col-xs-12">
                         <div class="mdl-input">
                             <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-                                <input class="mdl-textfield__input" type="text" id="future">
-                                <label class="mdl-textfield__label" for="future">Topic</label>
+                                <input class="mdl-textfield__input" type="text" id="otro">
+                                <label class="mdl-textfield__label" for="otro">Topic</label>
                             </div>
                         </div>
                     </div>
@@ -364,8 +364,8 @@
                     <div class="col-xs-12">
                         <div class="mdl-input">
                             <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-                                <input class="mdl-textfield__input" type="text" id="suggestions">
-                                <label class="mdl-textfield__label" for="suggestions">Suggestion</label>
+                                <input class="mdl-textfield__input" type="text" id="otro">
+                                <label class="mdl-textfield__label" for="otro">Suggestion</label>
                             </div>
                         </div>
                     </div>
@@ -412,43 +412,302 @@
                             </label>
                         </div>
                     </div>
-                </div>
-                <div class="preguntas">
-                    <p class="title-question"><strong>6.</strong> From 1 to 10, rate this event overall.</p>
-                    <div class="col-xs-12">
-                        <div class="mdl-input">
-                            <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-                                <input class="mdl-textfield__input" type="text" id="rate">
-                                <label class="mdl-textfield__label" for="rate">Suggestion</label>
-                            </div>
+                    <div class="col-xs-12 col-sm-3">
+                        <div class="mdl-check-button">
+                            <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="lab-6">
+                                <input type="radio" id="lab-6" class="mdl-radio__button" name="options2" value="Not participated">
+                                <span class="mdl-radio__label">Not participated</span>
+                            </label>
                         </div>
                     </div>
                 </div>
                 <div class="preguntas">
+                    <p class="title-question"><strong>6.</strong> From 1 to 10, rate this event overall.</p>
+                    <div class="mdl-number">
+                        <button id="number-1" class="mdl-button mdl-js-button mdl-button--icon button-number" onclick="numberRange(this.id)">
+                            <span>1</span>
+                        </button>
+                    </div>
+                    <div class="mdl-number">
+                        <button id="number-2" class="mdl-button mdl-js-button mdl-button--icon button-number" onclick="numberRange(this.id)">
+                            <span>2</span>
+                        </button>
+                    </div>
+                    <div class="mdl-number">
+                        <button id="number-3" class="mdl-button mdl-js-button mdl-button--icon button-number" onclick="numberRange(this.id)">
+                            <span>3</span>
+                        </button>
+                    </div>
+                    <div class="mdl-number">
+                        <button id="number-4" class="mdl-button mdl-js-button mdl-button--icon button-number" onclick="numberRange(this.id)">
+                            <span>4</span>
+                        </button>
+                    </div>
+                    <div class="mdl-number">
+                        <button id="number-5" class="mdl-button mdl-js-button mdl-button--icon button-number" onclick="numberRange(this.id)">
+                            <span>5</span>
+                        </button>
+                    </div>
+                    <div class="mdl-number">
+                        <button id="number-6" class="mdl-button mdl-js-button mdl-button--icon button-number" onclick="numberRange(this.id)">
+                            <span>6</span>
+                        </button>
+                    </div>
+                    <div class="mdl-number">
+                        <button id="number-7" class="mdl-button mdl-js-button mdl-button--icon button-number" onclick="numberRange(this.id)">
+                            <span>7</span>
+                        </button>
+                    </div>
+                    <div class="mdl-number">
+                        <button id="number-8" class="mdl-button mdl-js-button mdl-button--icon button-number" onclick="numberRange(this.id)">
+                            <span>8</span>
+                        </button>
+                    </div>
+                    <div class="mdl-number">
+                        <button id="number-9" class="mdl-button mdl-js-button mdl-button--icon button-number" onclick="numberRange(this.id)">
+                            <span>9</span>
+                        </button>
+                    </div>
+                    <div class="mdl-number">
+                        <button id="number-10" class="mdl-button mdl-js-button mdl-button--icon button-number" onclick="numberRange(this.id)">
+                            <span>10</span>
+                        </button>
+                    </div>
+                </div>
+                <div class="preguntas">
                     <p class="title-question"><strong>7.</strong> General comments on the organization of the event.</p>
-                    
+                    <div class="subtitle-encuesta">
+                        <h2 class="subtitle">Hotel</h2>   
+                    </div>
+                    <div class="col-xs-12 col-sm-3">
+                        <div class="mdl-check-button">
+                            <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="hotel-1">
+                                <input type="checkbox" id="hotel-1" class="mdl-checkbox__input">
+                                <span class="mdl-checkbox__label">Bad</span>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-3">
+                        <div class="mdl-check-button">
+                            <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="hotel-2">
+                                <input type="checkbox" id="hotel-2" class="mdl-checkbox__input">
+                                <span class="mdl-checkbox__label">Regular</span>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-3">
+                        <div class="mdl-check-button">
+                            <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="hotel-3">
+                                <input type="checkbox" id="hotel-3" class="mdl-checkbox__input">
+                                <span class="mdl-checkbox__label">Good</span>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-3">
+                        <div class="mdl-check-button">
+                            <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="hotel-4">
+                                <input type="checkbox" id="hotel-4" class="mdl-checkbox__input">
+                                <span class="mdl-checkbox__label">Excellent</span>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="subtitle-encuesta">
+                        <h2 class="subtitle">Transport</h2>   
+                    </div>
+                    <div class="col-xs-12 col-sm-3">
+                        <div class="mdl-check-button">
+                            <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="transport-1">
+                                <input type="checkbox" id="transport-1" class="mdl-checkbox__input">
+                                <span class="mdl-checkbox__label">Bad</span>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-3">
+                        <div class="mdl-check-button">
+                            <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="transport-2">
+                                <input type="checkbox" id="transport-2" class="mdl-checkbox__input">
+                                <span class="mdl-checkbox__label">Regular</span>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-3">
+                        <div class="mdl-check-button">
+                            <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="transport-3">
+                                <input type="checkbox" id="transport-3" class="mdl-checkbox__input">
+                                <span class="mdl-checkbox__label">Good</span>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-3">
+                        <div class="mdl-check-button">
+                            <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="transport-4">
+                                <input type="checkbox" id="transport-4" class="mdl-checkbox__input">
+                                <span class="mdl-checkbox__label">Excellent</span>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="subtitle-encuesta">
+                        <h2 class="subtitle">Restaurant</h2>   
+                    </div>
+                    <div class="col-xs-12 col-sm-3">
+                        <div class="mdl-check-button">
+                            <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="restaurant-1">
+                                <input type="checkbox" id="restaurant-1" class="mdl-checkbox__input">
+                                <span class="mdl-checkbox__label">Bad</span>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-3">
+                        <div class="mdl-check-button">
+                            <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="restaurant-2">
+                                <input type="checkbox" id="restaurant-2" class="mdl-checkbox__input">
+                                <span class="mdl-checkbox__label">Regular</span>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-3">
+                        <div class="mdl-check-button">
+                            <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="restaurant-3">
+                                <input type="checkbox" id="restaurant-3" class="mdl-checkbox__input">
+                                <span class="mdl-checkbox__label">Good</span>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-3">
+                        <div class="mdl-check-button">
+                            <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="restaurant-4">
+                                <input type="checkbox" id="restaurant-4" class="mdl-checkbox__input">
+                                <span class="mdl-checkbox__label">Excellent</span>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="subtitle-encuesta">
+                        <h2 class="subtitle">Food</h2>   
+                    </div>
+                    <div class="col-xs-12 col-sm-3">
+                        <div class="mdl-check-button">
+                            <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="food-1">
+                                <input type="checkbox" id="food-1" class="mdl-checkbox__input">
+                                <span class="mdl-checkbox__label">Bad</span>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-3">
+                        <div class="mdl-check-button">
+                            <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="food-2">
+                                <input type="checkbox" id="food-2" class="mdl-checkbox__input">
+                                <span class="mdl-checkbox__label">Regular</span>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-3">
+                        <div class="mdl-check-button">
+                            <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="food-3">
+                                <input type="checkbox" id="food-3" class="mdl-checkbox__input">
+                                <span class="mdl-checkbox__label">Good</span>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-3">
+                        <div class="mdl-check-button">
+                            <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="food-4">
+                                <input type="checkbox" id="food-4" class="mdl-checkbox__input">
+                                <span class="mdl-checkbox__label">Excellent</span>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="subtitle-encuesta">
+                        <h2 class="subtitle">Register</h2>   
+                    </div>
+                    <div class="col-xs-12 col-sm-3">
+                        <div class="mdl-check-button">
+                            <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="register-1">
+                                <input type="checkbox" id="register-1" class="mdl-checkbox__input">
+                                <span class="mdl-checkbox__label">Bad</span>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-3">
+                        <div class="mdl-check-button">
+                            <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="register-2">
+                                <input type="checkbox" id="register-2" class="mdl-checkbox__input">
+                                <span class="mdl-checkbox__label">Regular</span>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-3">
+                        <div class="mdl-check-button">
+                            <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="register-3">
+                                <input type="checkbox" id="register-3" class="mdl-checkbox__input">
+                                <span class="mdl-checkbox__label">Good</span>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-3">
+                        <div class="mdl-check-button">
+                            <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="register-4">
+                                <input type="checkbox" id="register-4" class="mdl-checkbox__input">
+                                <span class="mdl-checkbox__label">Excellent</span>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="subtitle-encuesta">
+                        <h2 class="subtitle">Schedule</h2>   
+                    </div>
+                    <div class="col-xs-12 col-sm-3">
+                        <div class="mdl-check-button">
+                            <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="schedule-1">
+                                <input type="checkbox" id="schedule-1" class="mdl-checkbox__input">
+                                <span class="mdl-checkbox__label">Bad</span>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-3">
+                        <div class="mdl-check-button">
+                            <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="schedule-2">
+                                <input type="checkbox" id="schedule-2" class="mdl-checkbox__input">
+                                <span class="mdl-checkbox__label">Regular</span>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-3">
+                        <div class="mdl-check-button">
+                            <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="schedule-3">
+                                <input type="checkbox" id="schedule-3" class="mdl-checkbox__input">
+                                <span class="mdl-checkbox__label">Good</span>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-3">
+                        <div class="mdl-check-button">
+                            <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="schedule-4">
+                                <input type="checkbox" id="schedule-4" class="mdl-checkbox__input">
+                                <span class="mdl-checkbox__label">Excellent</span>
+                            </label>
+                        </div>
+                    </div>
                 </div>
                 <div class="mdl-card__actions">
                     <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="enviarEncuesta()">Enviar</button>
                 </div>
             </div>
-		</div>
-	</section>
-	<script src="<?php echo RUTA_JS?>jquery-3.2.1.min.js?v=<?php echo time();?>"></script>
-	<script src="<?php echo RUTA_JS?>jquery-1.11.2.min.js?v=<?php echo time();?>"></script>
-	<script src="<?php echo RUTA_PLUGINS?>bootstrap/bootstrap.min.js?v=<?php echo time();?>"></script>
-	<script src="<?php echo RUTA_PLUGINS?>bootstrap-select/js/bootstrap-select.min.js?v=<?php echo time();?>"></script>
-	<script src="<?php echo RUTA_PLUGINS?>bootstrap-select/js/i18n/defaults-es_ES.min.js?v=<?php echo time();?>"></script>
+        </div>
+    </section>
+    <script src="<?php echo RUTA_JS?>jquery-3.2.1.min.js?v=<?php echo time();?>"></script>
+    <script src="<?php echo RUTA_JS?>jquery-1.11.2.min.js?v=<?php echo time();?>"></script>
+    <script src="<?php echo RUTA_PLUGINS?>bootstrap/bootstrap.min.js?v=<?php echo time();?>"></script>
+    <script src="<?php echo RUTA_PLUGINS?>bootstrap-select/js/bootstrap-select.min.js?v=<?php echo time();?>"></script>
+    <script src="<?php echo RUTA_PLUGINS?>bootstrap-select/js/i18n/defaults-es_ES.min.js?v=<?php echo time();?>"></script>
     <script src="<?php echo RUTA_PLUGINS?>moment/moment.min.js?v=<?php echo time();?>"></script>
     <script src="<?php echo RUTA_PLUGINS?>datetimepicker/js/bootstrap-material-datetimepicker.js?v=<?php echo time();?>"></script>
     <script src="<?php echo RUTA_PLUGINS?>jquery-mask/jquery.mask.min.js?v=<?php echo time();?>"></script>
-	<script src="<?php echo RUTA_PLUGINS?>mdl/material.min.js?v=<?php echo time();?>"></script>
+    <script src="<?php echo RUTA_PLUGINS?>mdl/material.min.js?v=<?php echo time();?>"></script>
     <script src="<?php echo RUTA_PLUGINS?>toaster/toastr.js?v=<?php echo time();?>"></script>
     <script src="<?php echo RUTA_JS?>jsmenu.js?v=<?php echo time();?>"></script>
     <script src="<?php echo RUTA_JS?>index.js?v=<?php echo time();?>"></script>
     <script type="text/javascript">
-    	if( /Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent) ) {
-        	$('select').selectpicker('mobile');
+        if( /Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent) ) {
+            $('select').selectpicker('mobile');
         } else {
             $('select').selectpicker();
         }

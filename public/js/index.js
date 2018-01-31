@@ -23,3 +23,14 @@ function addLoading(id) {
 function stopLoading(id) {
 	$('#'+id).children('.opacity-card').remove();
 }
+
+function numberRange(id){
+	var buttonSelect = $('#'+id+'.button-number');
+	$('.button-number').removeClass('button-select');
+	buttonSelect.addClass('button-select');
+	if(buttonSelect.hasClass('button-select')){
+    	buttonSelect.css("background-color","#F8B22C");
+    }else{
+    	buttonSelect.css("background-color","transparent");
+    }
+}

@@ -83,10 +83,10 @@ p{
 .subtitle-encuesta h2{
     font-size: 16px;
     padding: 3px 0;
-    margin: 20px 10px;
+    margin: 5px 0;
     border-bottom: 1px solid #f3f0f0;
-    color: #bfbfbf;
-	text-align: left;
+    color: #757575;
+    text-align: left;
     line-height: 20px;
 }
 .title-question{
@@ -197,7 +197,20 @@ p{
 	color: #FFFFFF;
 	outline: none;
 }
-
+/*NUMBERS*/
+.mdl-number{
+	display: inline-block;
+    margin: 10px;
+}
+.mdl-number span{
+	font-size: 18px;
+}
+.button-number{
+	transition: background-color .3s linear;
+}
+.button-select{
+	background-color: #01A982;
+}
 /* DateTimePicker */
 .dtp-date-view{
 	padding: 10px 0;
