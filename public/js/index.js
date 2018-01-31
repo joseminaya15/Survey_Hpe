@@ -1,15 +1,20 @@
 function enviarEncuesta(){
 	var valor = [];
+	var boton = [];
 	$("input:checked").each(function() {
 	  valor.push($(this).val());
 	});
 	var rate = $('#rate').val();
 	var suggestions = $('#suggestions').val();
 	var future = $('#future').val();
-	addLoading('idEncuesta');
+	var rate = $(".button-select").text();
+	$($(':checkbox').prop('checked', true)).each(function() {
+	  console.log($(this));
+	});
+	/*addLoading('idEncuesta');
 	setTimeout(function(){ 
 		stopLoading('idEncuesta')
-	}, 4000);
+	}, 4000);*/
 }
 
 function addLoading(id) {
