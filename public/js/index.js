@@ -11,10 +11,10 @@ function enviarEncuesta(){
 	$($(':checkbox').prop('checked', true)).each(function() {
 	  console.log($(this));
 	});
-	/*addLoading('idEncuesta');
-	setTimeout(function(){ 
-		stopLoading('idEncuesta')
-	}, 4000);*/
+	// addLoading('idEncuesta');
+	// setTimeout(function(){ 
+	// 	stopLoading('idEncuesta')
+	// }, 4000);
 }
 
 function addLoading(id) {

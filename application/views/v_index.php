@@ -35,317 +35,241 @@
             <h2 class="title">HPE Latin America Hybrid IT Bootcamp</h2>
             <p class="subtitle">Your feedback is very important to us, please fill out this survey so we can improve future events.</p>
             <div id="idEncuesta" class="mdl-card mdl-card-encuesta">
-                <div class="survey">
+                <!-- <div class="survey">
                     <p>Survey</p>
-                </div>
-                <div class="preguntas m-t-20">
-                    <p class="title-question"><strong>1.</strong> Which session was more relevant for you?</p>
-                    <div class="col-xs-12 col-sm-3">
-                        <div class="mdl-check-button">
-                            <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="session-1">
-                                <input type="radio" id="session-1" class="mdl-radio__button" name="options" value="Welcome & Strategy">
-                                <span class="mdl-radio__label">Welcome & Strategy</span>
-                            </label>
-                        </div>
+                </div> -->
+                <div class="preguntas">
+                    <p class="title-question m-t-0"><strong>1.</strong> Which session was more relevant for you?</p>
+                    <div class="mdl-check-button">
+                        <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="session-1">
+                            <input type="radio" id="session-1" class="mdl-radio__button" name="options" value="Welcome & Strategy">
+                            <span class="mdl-radio__label">Welcome & Strategy</span>
+                        </label>
                     </div>
-                    <div class="col-xs-12 col-sm-3">
-                        <div class="mdl-check-button">
-                            <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="session-2">
-                                <input type="radio" id="session-2" class="mdl-radio__button" name="options" value="Synergy">
-                                <span class="mdl-radio__label">Synergy</span>
-                            </label>
-                        </div>
+                    <div class="mdl-check-button">
+                        <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="session-2">
+                            <input type="radio" id="session-2" class="mdl-radio__button" name="options" value="Synergy">
+                            <span class="mdl-radio__label">Synergy</span>
+                        </label>
                     </div>
-                    <div class="col-xs-12 col-sm-3">
-                        <div class="mdl-check-button">
-                            <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="session-3">
-                                <input type="radio" id="session-3" class="mdl-radio__button" name="options" value="HPC">
-                                <span class="mdl-radio__label">HPC</span>
-                            </label>
-                        </div>
+                    <div class="mdl-check-button">
+                        <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="session-3">
+                            <input type="radio" id="session-3" class="mdl-radio__button" name="options" value="HPC">
+                            <span class="mdl-radio__label">HPC</span>
+                        </label>
                     </div>
-                    <div class="col-xs-12 col-sm-3">
-                        <div class="mdl-check-button">
-                            <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="session-4">
-                                <input type="radio" id="session-4" class="mdl-radio__button" name="options" value="Nimble Strategy">
-                                <span class="mdl-radio__label">Nimble Strategy</span>
-                            </label>
-                        </div>
+                    <div class="mdl-check-button">
+                        <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="session-4">
+                            <input type="radio" id="session-4" class="mdl-radio__button" name="options" value="Nimble Strategy">
+                            <span class="mdl-radio__label">Nimble Strategy</span>
+                        </label>
                     </div>
-                    <div class="col-xs-12 col-sm-3">
-                        <div class="mdl-check-button">
-                            <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="session-5">
-                                <input type="radio" id="session-5" class="mdl-radio__button" name="options" value="VmWare">
-                                <span class="mdl-radio__label">VmWare</span>
-                            </label>
-                        </div>
+                    <div class="mdl-check-button">
+                        <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="session-5">
+                            <input type="radio" id="session-5" class="mdl-radio__button" name="options" value="VMware">
+                            <span class="mdl-radio__label">VMware</span>
+                        </label>
                     </div>
-                    <div class="col-xs-12 col-sm-3">
-                        <div class="mdl-check-button">
-                            <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="session-6">
-                                <input type="radio" id="session-6" class="mdl-radio__button" name="options" value="Storage Portfolio Positioning">
-                                <span class="mdl-radio__label">Storage Portfolio Positioning</span>
-                            </label>
-                        </div>
+                    <div class="mdl-check-button">
+                        <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="session-6">
+                            <input type="radio" id="session-6" class="mdl-radio__button" name="options" value="Storage Portfolio Positioning">
+                            <span class="mdl-radio__label">Storage Portfolio Positioning</span>
+                        </label>
                     </div>
-                    <div class="col-xs-12 col-sm-3">
-                        <div class="mdl-check-button">
-                            <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="session-7">
-                                <input type="radio" id="session-7" class="mdl-radio__button" name="options" value="3PAR">
-                                <span class="mdl-radio__label">3PAR</span>
-                            </label>
-                        </div>
+                    <div class="mdl-check-button">
+                        <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="session-7">
+                            <input type="radio" id="session-7" class="mdl-radio__button" name="options" value="3PAR">
+                            <span class="mdl-radio__label">3PAR</span>
+                        </label>
                     </div>
-                    <div class="col-xs-12 col-sm-3">
-                        <div class="mdl-check-button">
-                            <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="session-8">
-                                <input type="radio" id="session-8" class="mdl-radio__button" name="options" value="Veeam">
-                                <span class="mdl-radio__label">Veeam</span>
-                            </label>
-                        </div>
+                    <div class="mdl-check-button">
+                        <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="session-8">
+                            <input type="radio" id="session-8" class="mdl-radio__button" name="options" value="Veeam">
+                            <span class="mdl-radio__label">Veeam</span>
+                        </label>
                     </div>
-                    <div class="col-xs-12 col-sm-3">
-                        <div class="mdl-check-button">
-                            <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="session-9">
-                                <input type="radio" id="session-9" class="mdl-radio__button" name="options" value="DAPR">
-                                <span class="mdl-radio__label">DAPR</span>
-                            </label>
-                        </div>
+                    <div class="mdl-check-button">
+                        <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="session-9">
+                            <input type="radio" id="session-9" class="mdl-radio__button" name="options" value="DAPR">
+                            <span class="mdl-radio__label">DAPR</span>
+                        </label>
                     </div>
-                    <div class="col-xs-12 col-sm-3">
-                        <div class="mdl-check-button">
-                            <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="session-10">
-                                <input type="radio" id="session-10" class="mdl-radio__button" name="options" value="Storage Big Data">
-                                <span class="mdl-radio__label">Storage Big Data</span>
-                            </label>
-                        </div>
+                    <div class="mdl-check-button">
+                        <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="session-10">
+                            <input type="radio" id="session-10" class="mdl-radio__button" name="options" value="Storage Big Data">
+                            <span class="mdl-radio__label">Storage Big Data</span>
+                        </label>
                     </div>
-                    <div class="col-xs-12 col-sm-3">
-                        <div class="mdl-check-button">
-                            <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="session-11">
-                                <input type="radio" id="session-11" class="mdl-radio__button" name="options" value="Brocade">
-                                <span class="mdl-radio__label">Brocade</span>
-                            </label>
-                        </div>
+                    <div class="mdl-check-button">
+                        <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="session-11">
+                            <input type="radio" id="session-11" class="mdl-radio__button" name="options" value="Brocade">
+                            <span class="mdl-radio__label">Brocade</span>
+                        </label>
                     </div>
-                    <div class="col-xs-12 col-sm-3">
-                        <div class="mdl-check-button">
-                            <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="session-12">
-                                <input type="radio" id="session-12" class="mdl-radio__button" name="options" value="DCN/VMware NSX">
-                                <span class="mdl-radio__label">DCN/VMware NSX</span>
-                            </label>
-                        </div>
+                    <div class="mdl-check-button">
+                        <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="session-12">
+                            <input type="radio" id="session-12" class="mdl-radio__button" name="options" value="DCN/VMware NSX">
+                            <span class="mdl-radio__label">DCN/VMware NSX</span>
+                        </label>
                     </div>
-                    <div class="col-xs-12 col-sm-3">
-                        <div class="mdl-check-button">
-                            <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="session-13">
-                                <input type="radio" id="session-13" class="mdl-radio__button" name="options" value="ProLiant Gen10">
-                                <span class="mdl-radio__label">ProLiant Gen10</span>
-                            </label>
-                        </div>
+                    <div class="mdl-check-button">
+                        <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="session-13">
+                            <input type="radio" id="session-13" class="mdl-radio__button" name="options" value="ProLiant Gen10">
+                            <span class="mdl-radio__label">ProLiant Gen10</span>
+                        </label>
                     </div>
-                    <div class="col-xs-12 col-sm-3">
-                        <div class="mdl-check-button">
-                            <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="session-14">
-                                <input type="radio" id="session-14" class="mdl-radio__button" name="options" value="MCS">
-                                <span class="mdl-radio__label">MCS</span>
-                            </label>
-                        </div>
+                    <div class="mdl-check-button">
+                        <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="session-14">
+                            <input type="radio" id="session-14" class="mdl-radio__button" name="options" value="MCS">
+                            <span class="mdl-radio__label">MCS</span>
+                        </label>
                     </div>
-                    <div class="col-xs-12 col-sm-3">
-                        <div class="mdl-check-button">
-                            <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="session-15">
-                                <input type="radio" id="session-15" class="mdl-radio__button" name="options" value="Apolo 2000">
-                                <span class="mdl-radio__label">Apolo 2000</span>
-                            </label>
-                        </div>
+                    <div class="mdl-check-button">
+                        <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="session-15">
+                            <input type="radio" id="session-15" class="mdl-radio__button" name="options" value="Apolo 2000">
+                            <span class="mdl-radio__label">Apolo 2000</span>
+                        </label>
                     </div>
-                    <div class="col-xs-12 col-sm-3">
-                        <div class="mdl-check-button">
-                            <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="session-16">
-                                <input type="radio" id="session-16" class="mdl-radio__button" name="options" value="Superdome Flex HANA">
-                                <span class="mdl-radio__label">Superdome Flex HANA</span>
-                            </label>
-                        </div>
+                    <div class="mdl-check-button">
+                        <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="session-16">
+                            <input type="radio" id="session-16" class="mdl-radio__button" name="options" value="Superdome Flex HANA">
+                            <span class="mdl-radio__label">Superdome Flex HANA</span>
+                        </label>
                     </div>
-                    <div class="col-xs-12 col-sm-3">
-                        <div class="mdl-check-button">
-                            <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="session-17">
-                                <input type="radio" id="session-17" class="mdl-radio__button" name="options" value="RedHat">
-                                <span class="mdl-radio__label">RedHat</span>
-                            </label>
-                        </div>
+                    <div class="mdl-check-button">
+                        <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="session-17">
+                            <input type="radio" id="session-17" class="mdl-radio__button" name="options" value="RedHat">
+                            <span class="mdl-radio__label">RedHat</span>
+                        </label>
                     </div>
-                    <div class="col-xs-12 col-sm-3">
-                        <div class="mdl-check-button">
-                            <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="session-18">
-                                <input type="radio" id="session-18" class="mdl-radio__button" name="options" value="PointNext">
-                                <span class="mdl-radio__label">PointNext</span>
-                            </label>
-                        </div>
+                    <div class="mdl-check-button">
+                        <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="session-18">
+                            <input type="radio" id="session-18" class="mdl-radio__button" name="options" value="PointNext">
+                            <span class="mdl-radio__label">PointNext</span>
+                        </label>
                     </div>
-                    <div class="col-xs-12 col-sm-3">
-                        <div class="mdl-check-button">
-                            <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="session-19">
-                                <input type="radio" id="session-19" class="mdl-radio__button" name="options" value="AMD">
-                                <span class="mdl-radio__label">AMD</span>
-                            </label>
-                        </div>
+                    <div class="mdl-check-button">
+                        <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="session-19">
+                            <input type="radio" id="session-19" class="mdl-radio__button" name="options" value="AMD">
+                            <span class="mdl-radio__label">AMD</span>
+                        </label>
                     </div>
                 </div>
                 <div class="preguntas">
                     <p class="title-question"><strong>2.</strong> Which topic do you think we should focus more?</p>
-                    <div class="col-xs-12 col-sm-3">
-                        <div class="mdl-check-button">
-                            <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="topic-1">
-                                <input type="radio" id="topic-1" class="mdl-radio__button" name="options1" value="Welcome & Strategy">
-                                <span class="mdl-radio__label">Welcome & Strategy</span>
-                            </label>
-                        </div>
+                    <div class="mdl-check-button">
+                        <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="topic-1">
+                            <input type="radio" id="topic-1" class="mdl-radio__button" name="options1" value="Welcome & Strategy">
+                            <span class="mdl-radio__label">Welcome & Strategy</span>
+                        </label>
                     </div>
-                    <div class="col-xs-12 col-sm-3">
-                        <div class="mdl-check-button">
-                            <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="topic-2">
-                                <input type="radio" id="topic-2" class="mdl-radio__button" name="options1" value="Synergy">
-                                <span class="mdl-radio__label">Synergy</span>
-                            </label>
-                        </div>
+                    <div class="mdl-check-button">
+                        <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="topic-2">
+                            <input type="radio" id="topic-2" class="mdl-radio__button" name="options1" value="Synergy">
+                            <span class="mdl-radio__label">Synergy</span>
+                        </label>
                     </div>
-                    <div class="col-xs-12 col-sm-3">
-                        <div class="mdl-check-button">
-                            <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="topic-3">
-                                <input type="radio" id="topic-3" class="mdl-radio__button" name="options1" value="HPC">
-                                <span class="mdl-radio__label">HPC</span>
-                            </label>
-                        </div>
+                    <div class="mdl-check-button">
+                        <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="topic-3">
+                            <input type="radio" id="topic-3" class="mdl-radio__button" name="options1" value="HPC">
+                            <span class="mdl-radio__label">HPC</span>
+                        </label>
                     </div>
-                    <div class="col-xs-12 col-sm-3">
-                        <div class="mdl-check-button">
-                            <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="topic-4">
-                                <input type="radio" id="topic-4" class="mdl-radio__button" name="options1" value="Nimble Strategy">
-                                <span class="mdl-radio__label">Nimble Strategy</span>
-                            </label>
-                        </div>
+                    <div class="mdl-check-button">
+                        <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="topic-4">
+                            <input type="radio" id="topic-4" class="mdl-radio__button" name="options1" value="Nimble Strategy">
+                            <span class="mdl-radio__label">Nimble Strategy</span>
+                        </label>
                     </div>
-                    <div class="col-xs-12 col-sm-3">
-                        <div class="mdl-check-button">
-                            <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="topic-5">
-                                <input type="radio" id="topic-5" class="mdl-radio__button" name="options1" value="VmWare">
-                                <span class="mdl-radio__label">VmWare</span>
-                            </label>
-                        </div>
+                    <div class="mdl-check-button">
+                        <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="topic-5">
+                            <input type="radio" id="topic-5" class="mdl-radio__button" name="options1" value="VMware">
+                            <span class="mdl-radio__label">VMware</span>
+                        </label>
                     </div>
-                    <div class="col-xs-12 col-sm-3">
-                        <div class="mdl-check-button">
-                            <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="topic-6">
-                                <input type="radio" id="topic-6" class="mdl-radio__button" name="options1" value="Storage Portfolio Positioning">
-                                <span class="mdl-radio__label">Storage Portfolio Positioning</span>
-                            </label>
-                        </div>
+                    <div class="mdl-check-button">
+                        <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="topic-6">
+                            <input type="radio" id="topic-6" class="mdl-radio__button" name="options1" value="Storage Portfolio Positioning">
+                            <span class="mdl-radio__label">Storage Portfolio Positioning</span>
+                        </label>
                     </div>
-                    <div class="col-xs-12 col-sm-3">
-                        <div class="mdl-check-button">
-                            <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="topic-7">
-                                <input type="radio" id="topic-7" class="mdl-radio__button" name="options1" value="3PAR">
-                                <span class="mdl-radio__label">3PAR</span>
-                            </label>
-                        </div>
+                    <div class="mdl-check-button">
+                        <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="topic-7">
+                            <input type="radio" id="topic-7" class="mdl-radio__button" name="options1" value="3PAR">
+                            <span class="mdl-radio__label">3PAR</span>
+                        </label>
                     </div>
-                    <div class="col-xs-12 col-sm-3">
-                        <div class="mdl-check-button">
-                            <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="topic-8">
-                                <input type="radio" id="topic-8" class="mdl-radio__button" name="options1" value="Veeam">
-                                <span class="mdl-radio__label">Veeam</span>
-                            </label>
-                        </div>
+                    <div class="mdl-check-button">
+                        <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="topic-8">
+                            <input type="radio" id="topic-8" class="mdl-radio__button" name="options1" value="Veeam">
+                            <span class="mdl-radio__label">Veeam</span>
+                        </label>
                     </div>
-                    <div class="col-xs-12 col-sm-3">
-                        <div class="mdl-check-button">
-                            <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="topic-9">
-                                <input type="radio" id="topic-9" class="mdl-radio__button" name="options1" value="DAPR">
-                                <span class="mdl-radio__label">DAPR</span>
-                            </label>
-                        </div>
+                    <div class="mdl-check-button">
+                        <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="topic-9">
+                            <input type="radio" id="topic-9" class="mdl-radio__button" name="options1" value="DAPR">
+                            <span class="mdl-radio__label">DAPR</span>
+                        </label>
                     </div>
-                    <div class="col-xs-12 col-sm-3">
-                        <div class="mdl-check-button">
-                            <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="topic-10">
-                                <input type="radio" id="topic-10" class="mdl-radio__button" name="options1" value="Storage Big Data">
-                                <span class="mdl-radio__label">Storage Big Data</span>
-                            </label>
-                        </div>
+                    <div class="mdl-check-button">
+                        <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="topic-10">
+                            <input type="radio" id="topic-10" class="mdl-radio__button" name="options1" value="Storage Big Data">
+                            <span class="mdl-radio__label">Storage Big Data</span>
+                        </label>
                     </div>
-                    <div class="col-xs-12 col-sm-3">
-                        <div class="mdl-check-button">
-                            <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="topic-11">
-                                <input type="radio" id="topic-11" class="mdl-radio__button" name="options1" value="Brocade">
-                                <span class="mdl-radio__label">Brocade</span>
-                            </label>
-                        </div>
+                    <div class="mdl-check-button">
+                        <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="topic-11">
+                            <input type="radio" id="topic-11" class="mdl-radio__button" name="options1" value="Brocade">
+                            <span class="mdl-radio__label">Brocade</span>
+                        </label>
                     </div>
-                    <div class="col-xs-12 col-sm-3">
-                        <div class="mdl-check-button">
-                            <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="topic-12">
-                                <input type="radio" id="topic-12" class="mdl-radio__button" name="options1" value="DCN/VMware NSX">
-                                <span class="mdl-radio__label">DCN/VMware NSX</span>
-                            </label>
-                        </div>
+                    <div class="mdl-check-button">
+                        <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="topic-12">
+                            <input type="radio" id="topic-12" class="mdl-radio__button" name="options1" value="DCN/VMware NSX">
+                            <span class="mdl-radio__label">DCN/VMware NSX</span>
+                        </label>
                     </div>
-                    <div class="col-xs-12 col-sm-3">
-                        <div class="mdl-check-button">
-                            <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="topic-13">
-                                <input type="radio" id="topic-13" class="mdl-radio__button" name="options1" value="ProLiant Gen10">
-                                <span class="mdl-radio__label">ProLiant Gen10</span>
-                            </label>
-                        </div>
+                    <div class="mdl-check-button">
+                        <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="topic-13">
+                            <input type="radio" id="topic-13" class="mdl-radio__button" name="options1" value="ProLiant Gen10">
+                            <span class="mdl-radio__label">ProLiant Gen10</span>
+                        </label>
                     </div>
-                    <div class="col-xs-12 col-sm-3">
-                        <div class="mdl-check-button">
-                            <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="topic-14">
-                                <input type="radio" id="topic-14" class="mdl-radio__button" name="options1" value="MCS">
-                                <span class="mdl-radio__label">MCS</span>
-                            </label>
-                        </div>
+                    <div class="mdl-check-button">
+                        <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="topic-14">
+                            <input type="radio" id="topic-14" class="mdl-radio__button" name="options1" value="MCS">
+                            <span class="mdl-radio__label">MCS</span>
+                        </label>
                     </div>
-                    <div class="col-xs-12 col-sm-3">
-                        <div class="mdl-check-button">
-                            <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="topic-15">
-                                <input type="radio" id="topic-15" class="mdl-radio__button" name="options1" value="Apolo 2000">
-                                <span class="mdl-radio__label">Apolo 2000</span>
-                            </label>
-                        </div>
+                    <div class="mdl-check-button">
+                        <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="topic-15">
+                            <input type="radio" id="topic-15" class="mdl-radio__button" name="options1" value="Apolo 2000">
+                            <span class="mdl-radio__label">Apolo 2000</span>
+                        </label>
                     </div>
-                    <div class="col-xs-12 col-sm-3">
-                        <div class="mdl-check-button">
-                            <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="topic-16">
-                                <input type="radio" id="topic-16" class="mdl-radio__button" name="options1" value="Superdome Flex HANA">
-                                <span class="mdl-radio__label">Superdome Flex HANA</span>
-                            </label>
-                        </div>
+                    <div class="mdl-check-button">
+                        <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="topic-16">
+                            <input type="radio" id="topic-16" class="mdl-radio__button" name="options1" value="Superdome Flex HANA">
+                            <span class="mdl-radio__label">Superdome Flex HANA</span>
+                        </label>
                     </div>
-                    <div class="col-xs-12 col-sm-3">
-                        <div class="mdl-check-button">
-                            <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="topic-17">
-                                <input type="radio" id="topic-17" class="mdl-radio__button" name="options1" value="RedHat">
-                                <span class="mdl-radio__label">RedHat</span>
-                            </label>
-                        </div>
+                    <div class="mdl-check-button">
+                        <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="topic-17">
+                            <input type="radio" id="topic-17" class="mdl-radio__button" name="options1" value="RedHat">
+                            <span class="mdl-radio__label">RedHat</span>
+                        </label>
                     </div>
-                    <div class="col-xs-12 col-sm-3">
-                        <div class="mdl-check-button">
-                            <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="topic-18">
-                                <input type="radio" id="topic-18" class="mdl-radio__button" name="options1" value="PointNext">
-                                <span class="mdl-radio__label">PointNext</span>
-                            </label>
-                        </div>
+                    <div class="mdl-check-button">
+                        <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="topic-18">
+                            <input type="radio" id="topic-18" class="mdl-radio__button" name="options1" value="PointNext">
+                            <span class="mdl-radio__label">PointNext</span>
+                        </label>
                     </div>
-                    <div class="col-xs-12 col-sm-3">
-                        <div class="mdl-check-button">
-                            <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="topic-19">
-                                <input type="radio" id="topic-19" class="mdl-radio__button" name="options1" value="AMD">
-                                <span class="mdl-radio__label">AMD</span>
-                            </label>
-                        </div>
+                    <div class="mdl-check-button">
+                        <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="topic-19">
+                            <input type="radio" id="topic-19" class="mdl-radio__button" name="options1" value="AMD">
+                            <span class="mdl-radio__label">AMD</span>
+                        </label>
                     </div>
                 </div>
                 <div class="preguntas">
@@ -372,53 +296,41 @@
                 </div>
                 <div class="preguntas">
                     <p class="title-question"><strong>5.</strong> If you participated in any of the LABs provided, which one was more useful based on your area?</p>
-                    <div class="col-xs-12 col-sm-3">
-                        <div class="mdl-check-button">
-                            <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="lab-1">
-                                <input type="radio" id="lab-1" class="mdl-radio__button" name="options2" value="LAB Nimble">
-                                <span class="mdl-radio__label">LAB Nimble</span>
-                            </label>
-                        </div>
+                    <div class="mdl-check-button">
+                        <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="lab-1">
+                            <input type="radio" id="lab-1" class="mdl-radio__button" name="options2" value="LAB Nimble">
+                            <span class="mdl-radio__label">LAB Nimble</span>
+                        </label>
                     </div>
-                    <div class="col-xs-12 col-sm-3">
-                        <div class="mdl-check-button">
-                            <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="lab-2">
-                                <input type="radio" id="lab-2" class="mdl-radio__button" name="options2" value="LAB OneView">
-                                <span class="mdl-radio__label">LAB OneView</span>
-                            </label>
-                        </div>
+                    <div class="mdl-check-button">
+                        <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="lab-2">
+                            <input type="radio" id="lab-2" class="mdl-radio__button" name="options2" value="LAB OneView">
+                            <span class="mdl-radio__label">LAB OneView</span>
+                        </label>
                     </div>
-                    <div class="col-xs-12 col-sm-3">
-                        <div class="mdl-check-button">
-                            <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="lab-3">
-                                <input type="radio" id="lab-3" class="mdl-radio__button" name="options2" value="LAB DAPR">
-                                <span class="mdl-radio__label">LAB DAPR</span>
-                            </label>
-                        </div>
+                    <div class="mdl-check-button">
+                        <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="lab-3">
+                            <input type="radio" id="lab-3" class="mdl-radio__button" name="options2" value="LAB DAPR">
+                            <span class="mdl-radio__label">LAB DAPR</span>
+                        </label>
                     </div>
-                    <div class="col-xs-12 col-sm-3">
-                        <div class="mdl-check-button">
-                            <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="lab-4">
-                                <input type="radio" id="lab-4" class="mdl-radio__button" name="options2" value="LAB simplivity">
-                                <span class="mdl-radio__label">LAB simplivity</span>
-                            </label>
-                        </div>
+                    <div class="mdl-check-button">
+                        <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="lab-4">
+                            <input type="radio" id="lab-4" class="mdl-radio__button" name="options2" value="LAB simplivity">
+                            <span class="mdl-radio__label">LAB Simplivity</span>
+                        </label>
                     </div>
-                    <div class="col-xs-12 col-sm-3">
-                        <div class="mdl-check-button">
-                            <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="lab-5">
-                                <input type="radio" id="lab-5" class="mdl-radio__button" name="options2" value="LAB Storage Competitive">
-                                <span class="mdl-radio__label">LAB Storage Competitive</span>
-                            </label>
-                        </div>
+                    <div class="mdl-check-button">
+                        <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="lab-5">
+                            <input type="radio" id="lab-5" class="mdl-radio__button" name="options2" value="LAB Storage Competitive">
+                            <span class="mdl-radio__label">LAB Storage Competitive</span>
+                        </label>
                     </div>
-                    <div class="col-xs-12 col-sm-3">
-                        <div class="mdl-check-button">
-                            <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="lab-6">
-                                <input type="radio" id="lab-6" class="mdl-radio__button" name="options2" value="Not participated">
-                                <span class="mdl-radio__label">Not participated</span>
-                            </label>
-                        </div>
+                    <div class="mdl-check-button">
+                        <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="lab-6">
+                            <input type="radio" id="lab-6" class="mdl-radio__button" name="options2" value="Not participated">
+                            <span class="mdl-radio__label">Not participated</span>
+                        </label>
                     </div>
                 </div>
                 <div class="preguntas">
@@ -474,221 +386,174 @@
                         </button>
                     </div>
                 </div>
-                <div class="preguntas">
+                <div class="preguntas border-0">
                     <p class="title-question"><strong>7.</strong> General comments on the organization of the event.</p>
-                    <div class="subtitle-encuesta">
+                    <div class="subtitle-encuesta col-xs-12 p-0">
                         <h2 class="subtitle">Hotel</h2>   
                     </div>
-                    <div class="col-xs-12 col-sm-3">
-                        <div class="mdl-check-button">
-                            <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="hotel-1">
-                                <input type="checkbox" id="hotel-1" class="mdl-checkbox__input">
-                                <span class="mdl-checkbox__label">Bad</span>
-                            </label>
-                        </div>
+                    <div class="mdl-check-button">
+                        <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="hotel-1">
+                            <input type="radio" id="hotel-1" class="mdl-radio__button" name="options3" value="Poor">
+                            <span class="mdl-radio__label">Poor</span>
+                        </label>
                     </div>
-                    <div class="col-xs-12 col-sm-3">
-                        <div class="mdl-check-button">
-                            <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="hotel-2">
-                                <input type="checkbox" id="hotel-2" class="mdl-checkbox__input">
-                                <span class="mdl-checkbox__label">Regular</span>
-                            </label>
-                        </div>
+                    <div class="mdl-check-button">
+                        <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="hotel-2">
+                            <input type="radio" id="hotel-2" class="mdl-radio__button" name="options3" value="Regular">
+                            <span class="mdl-radio__label">Regular</span>
+                        </label>
                     </div>
-                    <div class="col-xs-12 col-sm-3">
-                        <div class="mdl-check-button">
-                            <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="hotel-3">
-                                <input type="checkbox" id="hotel-3" class="mdl-checkbox__input">
-                                <span class="mdl-checkbox__label">Good</span>
-                            </label>
-                        </div>
+                    <div class="mdl-check-button">
+                        <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="hotel-3">
+                            <input type="radio" id="hotel-3" class="mdl-radio__button" name="options3" value="Good">
+                            <span class="mdl-radio__label">Good</span>
+                        </label>
                     </div>
-                    <div class="col-xs-12 col-sm-3">
-                        <div class="mdl-check-button">
-                            <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="hotel-4">
-                                <input type="checkbox" id="hotel-4" class="mdl-checkbox__input">
-                                <span class="mdl-checkbox__label">Excellent</span>
-                            </label>
-                        </div>
+                    <div class="mdl-check-button">
+                        <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="hotel-4">
+                            <input type="radio" id="hotel-4" class="mdl-radio__button" name="options3" value="Excellent">
+                            <span class="mdl-radio__label">Excellent</span>
+                        </label>
                     </div>
-                    <div class="subtitle-encuesta">
+                    <div class="subtitle-encuesta col-xs-12 p-0">
                         <h2 class="subtitle">Transport</h2>   
                     </div>
-                    <div class="col-xs-12 col-sm-3">
-                        <div class="mdl-check-button">
-                            <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="transport-1">
-                                <input type="checkbox" id="transport-1" class="mdl-checkbox__input">
-                                <span class="mdl-checkbox__label">Bad</span>
-                            </label>
-                        </div>
+                    <div class="mdl-check-button">
+                        <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="transport-1">
+                            <input type="radio" id="transport-1" class="mdl-radio__button" name="options4" value="Poor">
+                            <span class="mdl-radio__label">Poor</span>
+                        </label>
                     </div>
-                    <div class="col-xs-12 col-sm-3">
-                        <div class="mdl-check-button">
-                            <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="transport-2">
-                                <input type="checkbox" id="transport-2" class="mdl-checkbox__input">
-                                <span class="mdl-checkbox__label">Regular</span>
-                            </label>
-                        </div>
+                    <div class="mdl-check-button">
+                        <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="transport-2">
+                            <input type="radio" id="transport-2" class="mdl-radio__button" name="options4" value="Regular">
+                            <span class="mdl-radio__label">Regular</span>
+                        </label>
                     </div>
-                    <div class="col-xs-12 col-sm-3">
-                        <div class="mdl-check-button">
-                            <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="transport-3">
-                                <input type="checkbox" id="transport-3" class="mdl-checkbox__input">
-                                <span class="mdl-checkbox__label">Good</span>
-                            </label>
-                        </div>
+                    <div class="mdl-check-button">
+                        <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="transport-3">
+                            <input type="radio" id="transport-3" class="mdl-radio__button" name="options4" value="Good">
+                            <span class="mdl-radio__label">Good</span>
+                        </label>
                     </div>
-                    <div class="col-xs-12 col-sm-3">
-                        <div class="mdl-check-button">
-                            <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="transport-4">
-                                <input type="checkbox" id="transport-4" class="mdl-checkbox__input">
-                                <span class="mdl-checkbox__label">Excellent</span>
-                            </label>
-                        </div>
+                    <div class="mdl-check-button">
+                        <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="transport-4">
+                            <input type="radio" id="transport-4" class="mdl-radio__button" name="options4" value="Excellent">
+                            <span class="mdl-radio__label">Excellent</span>
+                        </label>
                     </div>
-                    <div class="subtitle-encuesta">
+                    <div class="subtitle-encuesta col-xs-12 p-0">
                         <h2 class="subtitle">Restaurant</h2>   
                     </div>
-                    <div class="col-xs-12 col-sm-3">
-                        <div class="mdl-check-button">
-                            <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="restaurant-1">
-                                <input type="checkbox" id="restaurant-1" class="mdl-checkbox__input">
-                                <span class="mdl-checkbox__label">Bad</span>
-                            </label>
-                        </div>
+                    <div class="mdl-check-button">
+                        <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="restaurant-1">
+                            <input type="radio" id="restaurant-1" class="mdl-radio__button" name="options5" value="Poor">
+                            <span class="mdl-radio__label">Poor</span>
+                        </label>
                     </div>
-                    <div class="col-xs-12 col-sm-3">
-                        <div class="mdl-check-button">
-                            <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="restaurant-2">
-                                <input type="checkbox" id="restaurant-2" class="mdl-checkbox__input">
-                                <span class="mdl-checkbox__label">Regular</span>
-                            </label>
-                        </div>
+                    <div class="mdl-check-button">
+                        <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="restaurant-2">
+                            <input type="radio" id="restaurant-2" class="mdl-radio__button" name="options5" value="Regular">
+                            <span class="mdl-radio__label">Regular</span>
+                        </label>
                     </div>
-                    <div class="col-xs-12 col-sm-3">
-                        <div class="mdl-check-button">
-                            <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="restaurant-3">
-                                <input type="checkbox" id="restaurant-3" class="mdl-checkbox__input">
-                                <span class="mdl-checkbox__label">Good</span>
-                            </label>
-                        </div>
+                    <div class="mdl-check-button">
+                        <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="restaurant-3">
+                            <input type="radio" id="restaurant-3" class="mdl-radio__button" name="options5" value="Good">
+                            <span class="mdl-radio__label">Good</span>
+                        </label>
                     </div>
-                    <div class="col-xs-12 col-sm-3">
-                        <div class="mdl-check-button">
-                            <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="restaurant-4">
-                                <input type="checkbox" id="restaurant-4" class="mdl-checkbox__input">
-                                <span class="mdl-checkbox__label">Excellent</span>
-                            </label>
-                        </div>
+                    <div class="mdl-check-button">
+                        <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="restaurant-4">
+                            <input type="radio" id="restaurant-4" class="mdl-radio__button" name="options5" value="Excellent">
+                            <span class="mdl-radio__label">Excellent</span>
+                        </label>
                     </div>
-                    <div class="subtitle-encuesta">
+                    <div class="subtitle-encuesta col-xs-12 p-0">
                         <h2 class="subtitle">Food</h2>   
                     </div>
-                    <div class="col-xs-12 col-sm-3">
-                        <div class="mdl-check-button">
-                            <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="food-1">
-                                <input type="checkbox" id="food-1" class="mdl-checkbox__input">
-                                <span class="mdl-checkbox__label">Bad</span>
-                            </label>
-                        </div>
+                    <div class="mdl-check-button">
+                        <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="food-1">
+                            <input type="radio" id="food-1" class="mdl-radio__button" name="options6" value="Poor">
+                            <span class="mdl-radio__label">Poor</span>
+                        </label>
                     </div>
-                    <div class="col-xs-12 col-sm-3">
-                        <div class="mdl-check-button">
-                            <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="food-2">
-                                <input type="checkbox" id="food-2" class="mdl-checkbox__input">
-                                <span class="mdl-checkbox__label">Regular</span>
-                            </label>
-                        </div>
+                    <div class="mdl-check-button">
+                        <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="food-2">
+                            <input type="radio" id="food-2" class="mdl-radio__button" name="options6" value="Regular">
+                            <span class="mdl-radio__label">Regular</span>
+                        </label>
                     </div>
-                    <div class="col-xs-12 col-sm-3">
-                        <div class="mdl-check-button">
-                            <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="food-3">
-                                <input type="checkbox" id="food-3" class="mdl-checkbox__input">
-                                <span class="mdl-checkbox__label">Good</span>
-                            </label>
-                        </div>
+                    <div class="mdl-check-button">
+                        <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="food-3">
+                            <input type="radio" id="food-3" class="mdl-radio__button" name="options6" value="Good">
+                            <span class="mdl-radio__label">Good</span>
+                        </label>
                     </div>
-                    <div class="col-xs-12 col-sm-3">
-                        <div class="mdl-check-button">
-                            <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="food-4">
-                                <input type="checkbox" id="food-4" class="mdl-checkbox__input">
-                                <span class="mdl-checkbox__label">Excellent</span>
-                            </label>
-                        </div>
+                    <div class="mdl-check-button">
+                        <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="food-4">
+                            <input type="radio" id="food-4" class="mdl-radio__button" name="options6" value="Excellent">
+                            <span class="mdl-radio__label">Excellent</span>
+                        </label>
                     </div>
-                    <div class="subtitle-encuesta">
+                    <div class="subtitle-encuesta col-xs-12 p-0">
                         <h2 class="subtitle">Register</h2>   
                     </div>
-                    <div class="col-xs-12 col-sm-3">
-                        <div class="mdl-check-button">
-                            <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="register-1">
-                                <input type="checkbox" id="register-1" class="mdl-checkbox__input">
-                                <span class="mdl-checkbox__label">Bad</span>
-                            </label>
-                        </div>
+                    <div class="mdl-check-button">
+                        <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="register-1">
+                            <input type="radio" id="register-1" class="mdl-radio__button" name="options7" value="Poor">
+                            <span class="mdl-radio__label">Poor</span>
+                        </label>
                     </div>
-                    <div class="col-xs-12 col-sm-3">
-                        <div class="mdl-check-button">
-                            <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="register-2">
-                                <input type="checkbox" id="register-2" class="mdl-checkbox__input">
-                                <span class="mdl-checkbox__label">Regular</span>
-                            </label>
-                        </div>
+                    <div class="mdl-check-button">
+                        <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="register-2">
+                            <input type="radio" id="register-2" class="mdl-radio__button" name="options7" value="Regular">
+                            <span class="mdl-radio__label">Regular</span>
+                        </label>
                     </div>
-                    <div class="col-xs-12 col-sm-3">
-                        <div class="mdl-check-button">
-                            <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="register-3">
-                                <input type="checkbox" id="register-3" class="mdl-checkbox__input">
-                                <span class="mdl-checkbox__label">Good</span>
-                            </label>
-                        </div>
+                    <div class="mdl-check-button">
+                        <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="register-3">
+                            <input type="radio" id="register-3" class="mdl-radio__button" name="options7" value="Good">
+                            <span class="mdl-radio__label">Good</span>
+                        </label>
                     </div>
-                    <div class="col-xs-12 col-sm-3">
-                        <div class="mdl-check-button">
-                            <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="register-4">
-                                <input type="checkbox" id="register-4" class="mdl-checkbox__input">
-                                <span class="mdl-checkbox__label">Excellent</span>
-                            </label>
-                        </div>
+                    <div class="mdl-check-button">
+                        <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="register-4">
+                            <input type="radio" id="register-4" class="mdl-radio__button" name="options7" value="Excellent">
+                            <span class="mdl-radio__label">Excellent</span>
+                        </label>
                     </div>
-                    <div class="subtitle-encuesta">
+                    <div class="subtitle-encuesta col-xs-12 p-0">
                         <h2 class="subtitle">Schedule</h2>   
                     </div>
-                    <div class="col-xs-12 col-sm-3">
-                        <div class="mdl-check-button">
-                            <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="schedule-1">
-                                <input type="checkbox" id="schedule-1" class="mdl-checkbox__input">
-                                <span class="mdl-checkbox__label">Bad</span>
-                            </label>
-                        </div>
+                    <div class="mdl-check-button">
+                        <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="schedule-1">
+                            <input type="radio" id="schedule-1" class="mdl-radio__button" name="options8" value="Poor">
+                            <span class="mdl-radio__label">Poor</span>
+                        </label>
                     </div>
-                    <div class="col-xs-12 col-sm-3">
-                        <div class="mdl-check-button">
-                            <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="schedule-2">
-                                <input type="checkbox" id="schedule-2" class="mdl-checkbox__input">
-                                <span class="mdl-checkbox__label">Regular</span>
-                            </label>
-                        </div>
+                    <div class="mdl-check-button">
+                        <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="schedule-2">
+                            <input type="radio" id="schedule-2" class="mdl-radio__button" name="options8" value="Regular">
+                            <span class="mdl-radio__label">Regular</span>
+                        </label>
                     </div>
-                    <div class="col-xs-12 col-sm-3">
-                        <div class="mdl-check-button">
-                            <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="schedule-3">
-                                <input type="checkbox" id="schedule-3" class="mdl-checkbox__input">
-                                <span class="mdl-checkbox__label">Good</span>
-                            </label>
-                        </div>
+                    <div class="mdl-check-button">
+                        <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="schedule-3">
+                            <input type="radio" id="schedule-3" class="mdl-radio__button" name="options8" value="Good">
+                            <span class="mdl-radio__label">Good</span>
+                        </label>
                     </div>
-                    <div class="col-xs-12 col-sm-3">
-                        <div class="mdl-check-button">
-                            <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="schedule-4">
-                                <input type="checkbox" id="schedule-4" class="mdl-checkbox__input">
-                                <span class="mdl-checkbox__label">Excellent</span>
-                            </label>
-                        </div>
+                    <div class="mdl-check-button">
+                        <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="schedule-41">
+                            <input type="radio" id="schedule-4" class="mdl-radio__button" name="options8" value="Excellent">
+                            <span class="mdl-radio__label">Excellent</span>
+                        </label>
                     </div>
                 </div>
-                <div class="mdl-card__actions">
-                    <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="enviarEncuesta()">Enviar</button>
+                <h2 class="text-final">Thanks for your participation. See you next year!</h2>
+                <div class="mdl-card__actions p-0 m-t-10">
+                    <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="enviarEncuesta()">Send</button>
                 </div>
             </div>
         </div>
