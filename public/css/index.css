@@ -68,6 +68,12 @@ p{
     font-size: 18px;
     margin-bottom: 20px;
 }
+.text-final{
+	font-family: 'RobotoBold';
+	font-size: 18px;
+    margin: 12px 0;
+    line-height: 20px;
+}
 .survey{
 	position: absolute;
     left: 30px;
@@ -79,6 +85,9 @@ p{
 	line-height: 1;
 	margin: 0;
 	padding: 10px 20px;
+}
+.subtitle-encuesta{
+	margin: 10px 0;
 }
 .subtitle-encuesta h2{
     font-size: 16px;
@@ -94,6 +103,12 @@ p{
 }
 .mdl-check-button{
 	padding: 5px 0;
+    display: inline-block;
+    max-width: 268px;
+    width: 100%;
+}
+.border-0 .mdl-check-button .mdl-radio__outer-circle{
+	border-radius: 0;
 }
 /*CARD-ENCUESTA*/
 .mdl-card-encuesta{

@@ -33,6 +33,7 @@ function enviarEncuesta(){
 	/*$($(':checkbox').prop('checked', true)).each(function() {
 	  console.log($(this));
 	});*/
+
 }
 
 function addLoading(id) {
