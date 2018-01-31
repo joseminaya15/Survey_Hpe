@@ -353,7 +353,7 @@
                     <div class="col-xs-12">
                         <div class="mdl-input">
                             <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-                                <input class="mdl-textfield__input" type="text" id="otro">
+                                <input class="mdl-textfield__input" type="text" id="suggestions">
                                 <label class="mdl-textfield__label" for="otro">Topic</label>
                             </div>
                         </div>
@@ -364,7 +364,7 @@
                     <div class="col-xs-12">
                         <div class="mdl-input">
                             <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-                                <input class="mdl-textfield__input" type="text" id="otro">
+                                <input class="mdl-textfield__input" type="text" id="future">
                                 <label class="mdl-textfield__label" for="otro">Suggestion</label>
                             </div>
                         </div>
