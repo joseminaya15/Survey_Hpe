@@ -1,4 +1,15 @@
 function enviarEncuesta(){
+	var valor = [];
+	$("input:checked").each(function() {
+	  valor.push($(this).val());
+	});
+	console.log(valor);
+	var rate = $('#rate').val();
+	var suggestions = $('#suggestions').val();
+	var future = $('#future').val();
+	console.log(rate);
+	console.log(suggestions);
+	console.log(future);
 	addLoading('idEncuesta');
 	setTimeout(function(){ 
 		stopLoading('idEncuesta')

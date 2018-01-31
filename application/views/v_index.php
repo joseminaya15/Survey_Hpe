@@ -39,7 +39,7 @@
                     <p>Survey</p>
                 </div>
                 <div class="preguntas m-t-20">
-                    <p class="title-question"><strong>1.</strong> Which session was more relevant for you?</p>
+                    <p class="title-question" id="question1"><strong>1.</strong> Which session was more relevant for you?</p>
                     <div class="col-xs-12 col-sm-3">
                         <div class="mdl-check-button">
                             <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="session-1">
@@ -194,7 +194,7 @@
                     </div>
                 </div>
                 <div class="preguntas">
-                    <p class="title-question"><strong>2.</strong> Which topic do you think we should focus more?</p>
+                    <p class="title-question" id="question2"><strong>2.</strong> Which topic do you think we should focus more?</p>
                     <div class="col-xs-12 col-sm-3">
                         <div class="mdl-check-button">
                             <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="topic-1">
@@ -353,8 +353,8 @@
                     <div class="col-xs-12">
                         <div class="mdl-input">
                             <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-                                <input class="mdl-textfield__input" type="text" id="otro">
-                                <label class="mdl-textfield__label" for="otro">Topic</label>
+                                <input class="mdl-textfield__input" type="text" id="future">
+                                <label class="mdl-textfield__label" for="future">Topic</label>
                             </div>
                         </div>
                     </div>
@@ -364,8 +364,8 @@
                     <div class="col-xs-12">
                         <div class="mdl-input">
                             <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-                                <input class="mdl-textfield__input" type="text" id="otro">
-                                <label class="mdl-textfield__label" for="otro">Suggestion</label>
+                                <input class="mdl-textfield__input" type="text" id="suggestions">
+                                <label class="mdl-textfield__label" for="suggestions">Suggestion</label>
                             </div>
                         </div>
                     </div>
@@ -418,8 +418,8 @@
                     <div class="col-xs-12">
                         <div class="mdl-input">
                             <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-                                <input class="mdl-textfield__input" type="text" id="otro">
-                                <label class="mdl-textfield__label" for="otro">Suggestion</label>
+                                <input class="mdl-textfield__input" type="text" id="rate">
+                                <label class="mdl-textfield__label" for="rate">Suggestion</label>
                             </div>
                         </div>
                     </div>
