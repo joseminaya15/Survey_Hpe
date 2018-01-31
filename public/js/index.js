@@ -4,17 +4,35 @@ function enviarEncuesta(){
 	$("input:checked").each(function() {
 	  valor.push($(this).val());
 	});
-	var rate = $('#rate').val();
 	var suggestions = $('#suggestions').val();
-	var future = $('#future').val();
-	var rate = $(".button-select").text();
-	$($(':checkbox').prop('checked', true)).each(function() {
-	  console.log($(this));
+	var future 		= $('#future').val();
+	var rate 		= $(".button-select").find("span").text();
+	//console.log(rate);
+	$.ajax({
+		data  : { valor 	  : valor,
+				  suggestions : suggestions,
+				  future 	  : future,
+				  rate 		  : rate},
+		url   : 'Inicio/enviarEncuesta',
+		type  : 'POST'
+	}).done(function(data){
+		try{
+        	data = JSON.parse(data);
+        	if(data.error == 0){
+				/*addLoading('idEncuesta');
+					setTimeout(function(){ 
+						stopLoading('idEncuesta')
+					}, 4000);*/
+        	}else {
+        		return;
+        	}
+      } catch (err){
+        msj('error',err.message);
+      }
 	});
-	/*addLoading('idEncuesta');
-	setTimeout(function(){ 
-		stopLoading('idEncuesta')
-	}, 4000);*/
+	/*$($(':checkbox').prop('checked', true)).each(function() {
+	  console.log($(this));
+	});*/
 }
 
 function addLoading(id) {
