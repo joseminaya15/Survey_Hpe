@@ -206,10 +206,11 @@ p{
 	font-size: 18px;
 }
 .button-number{
-	transition: background-color .3s linear;
+	transition: background-color .1s linear;
 }
 .button-select{
 	background-color: #01A982;
+	color: #FFFFFF;
 }
 /* DateTimePicker */
 .dtp-date-view{
