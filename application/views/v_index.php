@@ -198,7 +198,7 @@
                     <div class="col-xs-12 col-sm-3">
                         <div class="mdl-check-button">
                             <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="topic-1">
-                                <input type="radio" id="topic-1" class="mdl-radio__button" name="options" value="Welcome & Strategy">
+                                <input type="radio" id="topic-1" class="mdl-radio__button" name="options1" value="Welcome & Strategy">
                                 <span class="mdl-radio__label">Welcome & Strategy</span>
                             </label>
                         </div>
@@ -206,7 +206,7 @@
                     <div class="col-xs-12 col-sm-3">
                         <div class="mdl-check-button">
                             <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="topic-2">
-                                <input type="radio" id="topic-2" class="mdl-radio__button" name="options" value="Synergy">
+                                <input type="radio" id="topic-2" class="mdl-radio__button" name="options1" value="Synergy">
                                 <span class="mdl-radio__label">Synergy</span>
                             </label>
                         </div>
@@ -214,7 +214,7 @@
                     <div class="col-xs-12 col-sm-3">
                         <div class="mdl-check-button">
                             <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="topic-3">
-                                <input type="radio" id="topic-3" class="mdl-radio__button" name="options" value="HPC">
+                                <input type="radio" id="topic-3" class="mdl-radio__button" name="options1" value="HPC">
                                 <span class="mdl-radio__label">HPC</span>
                             </label>
                         </div>
@@ -222,7 +222,7 @@
                     <div class="col-xs-12 col-sm-3">
                         <div class="mdl-check-button">
                             <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="topic-4">
-                                <input type="radio" id="topic-4" class="mdl-radio__button" name="options" value="Nimble Strategy">
+                                <input type="radio" id="topic-4" class="mdl-radio__button" name="options1" value="Nimble Strategy">
                                 <span class="mdl-radio__label">Nimble Strategy</span>
                             </label>
                         </div>
@@ -230,7 +230,7 @@
                     <div class="col-xs-12 col-sm-3">
                         <div class="mdl-check-button">
                             <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="topic-5">
-                                <input type="radio" id="topic-5" class="mdl-radio__button" name="options" value="VmWare">
+                                <input type="radio" id="topic-5" class="mdl-radio__button" name="options1" value="VmWare">
                                 <span class="mdl-radio__label">VmWare</span>
                             </label>
                         </div>
@@ -238,7 +238,7 @@
                     <div class="col-xs-12 col-sm-3">
                         <div class="mdl-check-button">
                             <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="topic-6">
-                                <input type="radio" id="topic-6" class="mdl-radio__button" name="options" value="Storage Portfolio Positioning">
+                                <input type="radio" id="topic-6" class="mdl-radio__button" name="options1" value="Storage Portfolio Positioning">
                                 <span class="mdl-radio__label">Storage Portfolio Positioning</span>
                             </label>
                         </div>
@@ -246,7 +246,7 @@
                     <div class="col-xs-12 col-sm-3">
                         <div class="mdl-check-button">
                             <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="topic-7">
-                                <input type="radio" id="topic-7" class="mdl-radio__button" name="options" value="3PAR">
+                                <input type="radio" id="topic-7" class="mdl-radio__button" name="options1" value="3PAR">
                                 <span class="mdl-radio__label">3PAR</span>
                             </label>
                         </div>
@@ -254,7 +254,7 @@
                     <div class="col-xs-12 col-sm-3">
                         <div class="mdl-check-button">
                             <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="topic-8">
-                                <input type="radio" id="topic-8" class="mdl-radio__button" name="options" value="Veeam">
+                                <input type="radio" id="topic-8" class="mdl-radio__button" name="options1" value="Veeam">
                                 <span class="mdl-radio__label">Veeam</span>
                             </label>
                         </div>
@@ -262,7 +262,7 @@
                     <div class="col-xs-12 col-sm-3">
                         <div class="mdl-check-button">
                             <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="topic-9">
-                                <input type="radio" id="topic-9" class="mdl-radio__button" name="options" value="DAPR">
+                                <input type="radio" id="topic-9" class="mdl-radio__button" name="options1" value="DAPR">
                                 <span class="mdl-radio__label">DAPR</span>
                             </label>
                         </div>
@@ -270,7 +270,7 @@
                     <div class="col-xs-12 col-sm-3">
                         <div class="mdl-check-button">
                             <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="topic-10">
-                                <input type="radio" id="topic-10" class="mdl-radio__button" name="options" value="Storage Big Data">
+                                <input type="radio" id="topic-10" class="mdl-radio__button" name="options1" value="Storage Big Data">
                                 <span class="mdl-radio__label">Storage Big Data</span>
                             </label>
                         </div>
@@ -278,7 +278,7 @@
                     <div class="col-xs-12 col-sm-3">
                         <div class="mdl-check-button">
                             <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="topic-11">
-                                <input type="radio" id="topic-11" class="mdl-radio__button" name="options" value="Brocade">
+                                <input type="radio" id="topic-11" class="mdl-radio__button" name="options1" value="Brocade">
                                 <span class="mdl-radio__label">Brocade</span>
                             </label>
                         </div>
@@ -286,7 +286,7 @@
                     <div class="col-xs-12 col-sm-3">
                         <div class="mdl-check-button">
                             <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="topic-12">
-                                <input type="radio" id="topic-12" class="mdl-radio__button" name="options" value="DCN/VMware NSX">
+                                <input type="radio" id="topic-12" class="mdl-radio__button" name="options1" value="DCN/VMware NSX">
                                 <span class="mdl-radio__label">DCN/VMware NSX</span>
                             </label>
                         </div>
@@ -294,7 +294,7 @@
                     <div class="col-xs-12 col-sm-3">
                         <div class="mdl-check-button">
                             <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="topic-13">
-                                <input type="radio" id="topic-13" class="mdl-radio__button" name="options" value="ProLiant Gen10">
+                                <input type="radio" id="topic-13" class="mdl-radio__button" name="options1" value="ProLiant Gen10">
                                 <span class="mdl-radio__label">ProLiant Gen10</span>
                             </label>
                         </div>
@@ -302,7 +302,7 @@
                     <div class="col-xs-12 col-sm-3">
                         <div class="mdl-check-button">
                             <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="topic-14">
-                                <input type="radio" id="topic-14" class="mdl-radio__button" name="options" value="MCS">
+                                <input type="radio" id="topic-14" class="mdl-radio__button" name="options1" value="MCS">
                                 <span class="mdl-radio__label">MCS</span>
                             </label>
                         </div>
@@ -310,7 +310,7 @@
                     <div class="col-xs-12 col-sm-3">
                         <div class="mdl-check-button">
                             <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="topic-15">
-                                <input type="radio" id="topic-15" class="mdl-radio__button" name="options" value="Apolo 2000">
+                                <input type="radio" id="topic-15" class="mdl-radio__button" name="options1" value="Apolo 2000">
                                 <span class="mdl-radio__label">Apolo 2000</span>
                             </label>
                         </div>
@@ -318,7 +318,7 @@
                     <div class="col-xs-12 col-sm-3">
                         <div class="mdl-check-button">
                             <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="topic-16">
-                                <input type="radio" id="topic-16" class="mdl-radio__button" name="options" value="Superdome Flex HANA">
+                                <input type="radio" id="topic-16" class="mdl-radio__button" name="options1" value="Superdome Flex HANA">
                                 <span class="mdl-radio__label">Superdome Flex HANA</span>
                             </label>
                         </div>
@@ -326,7 +326,7 @@
                     <div class="col-xs-12 col-sm-3">
                         <div class="mdl-check-button">
                             <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="topic-17">
-                                <input type="radio" id="topic-17" class="mdl-radio__button" name="options" value="RedHat">
+                                <input type="radio" id="topic-17" class="mdl-radio__button" name="options1" value="RedHat">
                                 <span class="mdl-radio__label">RedHat</span>
                             </label>
                         </div>
@@ -334,7 +334,7 @@
                     <div class="col-xs-12 col-sm-3">
                         <div class="mdl-check-button">
                             <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="topic-18">
-                                <input type="radio" id="topic-18" class="mdl-radio__button" name="options" value="PointNext">
+                                <input type="radio" id="topic-18" class="mdl-radio__button" name="options1" value="PointNext">
                                 <span class="mdl-radio__label">PointNext</span>
                             </label>
                         </div>
@@ -342,7 +342,7 @@
                     <div class="col-xs-12 col-sm-3">
                         <div class="mdl-check-button">
                             <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="topic-19">
-                                <input type="radio" id="topic-19" class="mdl-radio__button" name="options" value="AMD">
+                                <input type="radio" id="topic-19" class="mdl-radio__button" name="options1" value="AMD">
                                 <span class="mdl-radio__label">AMD</span>
                             </label>
                         </div>
@@ -372,12 +372,44 @@
                 </div>
                 <div class="preguntas">
                     <p class="title-question"><strong>5.</strong> If you participated in any of the LABs provided, which one was more useful based on your area?</p>
-                    <div class="col-xs-12">
-                        <div class="mdl-input">
-                            <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-                                <input class="mdl-textfield__input" type="text" id="otro">
-                                <label class="mdl-textfield__label" for="otro">Suggestion</label>
-                            </div>
+                    <div class="col-xs-12 col-sm-3">
+                        <div class="mdl-check-button">
+                            <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="lab-1">
+                                <input type="radio" id="lab-1" class="mdl-radio__button" name="options2" value="LAB Nimble">
+                                <span class="mdl-radio__label">LAB Nimble</span>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-3">
+                        <div class="mdl-check-button">
+                            <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="lab-2">
+                                <input type="radio" id="lab-2" class="mdl-radio__button" name="options2" value="LAB OneView">
+                                <span class="mdl-radio__label">LAB OneView</span>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-3">
+                        <div class="mdl-check-button">
+                            <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="lab-3">
+                                <input type="radio" id="lab-3" class="mdl-radio__button" name="options2" value="LAB DAPR">
+                                <span class="mdl-radio__label">LAB DAPR</span>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-3">
+                        <div class="mdl-check-button">
+                            <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="lab-4">
+                                <input type="radio" id="lab-4" class="mdl-radio__button" name="options2" value="LAB simplivity">
+                                <span class="mdl-radio__label">LAB simplivity</span>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-3">
+                        <div class="mdl-check-button">
+                            <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="lab-5">
+                                <input type="radio" id="lab-5" class="mdl-radio__button" name="options2" value="LAB Storage Competitive">
+                                <span class="mdl-radio__label">LAB Storage Competitive</span>
+                            </label>
                         </div>
                     </div>
                 </div>
@@ -392,8 +424,9 @@
                         </div>
                     </div>
                 </div>
-                <div class="subtitle-encuesta">
-                    <h2 class="subtitle">Datos Personales</h2>   
+                <div class="preguntas">
+                    <p class="title-question"><strong>7.</strong> General comments on the organization of the event.</p>
+                    
                 </div>
                 <div class="mdl-card__actions">
                     <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="enviarEncuesta()">Enviar</button>

@@ -323,7 +323,7 @@ header.dtp-header .dtp-actual-year {
 .dtp-content circle[fill="#2196F3"] {
 	fill: #004062;
 }
-@media ( min-width : 800px ) {
+/*@media ( min-width : 800px ) {
 	.dtp>.dtp-content {
 		max-width: 530px;
 		max-height: 330px;	
@@ -427,7 +427,7 @@ header.dtp-header .dtp-actual-year {
 	    top: -16px !important;
 	    margin: auto !important;
 	}
-}
+}*/
 
 .opacity-card{
    	position: absolute;
@@ -447,7 +447,7 @@ header.dtp-header .dtp-actual-year {
 	margin: auto;
 }
 @media ( max-width : 420px ) {
-	.mdl-container{
+	/*.mdl-container{
 		margin: 0;
 	}
 	.mdl-card.mdl-card-encuesta{
@@ -458,5 +458,5 @@ header.dtp-header .dtp-actual-year {
 	}
 	.mdl-card-encuesta .mdl-card__actions button{
 		width: 100%;
-	}
+	}*/
 }
