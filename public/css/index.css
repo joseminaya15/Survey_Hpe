@@ -3,17 +3,30 @@ body{
 	margin: 0;
 	padding: 0;
 }
+p{
+    font-family: 'RobotoRegular';
+}
+.fondo-imagen, .fondo-imagen:BEFORE {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    height: 100%;
+    right: 0;
+}
 .fondo-imagen{
-	background: url(../img/fondoencuesta.png) no-repeat center center;
+	background: url(../img/fondo-home.jpg) no-repeat center center;
 	background-size: cover !important;
     width: 100%;
     height: 100%;
     display: block;
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    top: 0;
     z-index: 0;
+}
+.fondo-imagen:BEFORE {
+    content: '';
+    left: 0;
+    background-color: #000;
+    opacity: .65;
+    z-index: 1;
 }
 .header-body{
 	position: absolute;
@@ -36,12 +49,36 @@ body{
 	width: 100%;
 	margin: auto;
 	margin-top: 50px;
+	position: relative;
+}
+.logo-home img{
+	max-width: 280px;
 }
 .title{
-    text-align: center;
-    color: #00305D;
+    text-align: left;
+    color: #FFFFFF;
     font-size: 36px;
     font-family: 'RobotoBold';
+    max-width: 325px;
+    line-height: 36px;
+}
+.subtitle{
+    text-align: left;
+    color: #FFFFFF;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.survey{
+	position: absolute;
+    left: 30px;
+    top: 0;
+    background-color: #01A982;
+    color: #FFFFFF;
+}
+.survey p{
+	line-height: 1;
+	margin: 0;
+	padding: 10px 20px;
 }
 .subtitle-encuesta h2{
     font-size: 16px;
@@ -63,10 +100,10 @@ body{
 	width: 100%;
 	-webkit-box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
-	padding: 20px;
+	padding: 30px;
 }
 .mdl-card-encuesta .mdl-card__actions button{
-	background-color: #00305D;
+	background-color: #01A982;
     color: #FFFFFF;
 }
 /*MDL-INPUT*/
@@ -82,21 +119,21 @@ body{
 .mdl-textfield--floating-label.is-focused .mdl-textfield__label, 
 .mdl-textfield--floating-label.is-dirty .mdl-textfield__label, 
 .mdl-textfield--floating-label.has-placeholder .mdl-textfield__label{
-	color: #00305D;
+	color: #01A982;
 }
 .mdl-textfield__label:after{
     bottom: 15px;
-	background-color: #00305D;
+	background-color: #01A982;
 }
 .mdl-checkbox.is-checked .mdl-checkbox__box-outline,
 .mdl-radio.is-checked .mdl-radio__outer-circle{
-	border: 2px solid #00305D;
+	border: 2px solid #01A982;
 }
 .mdl-checkbox.is-checked .mdl-checkbox__tick-outline,
 .mdl-checkbox__ripple-container .mdl-ripple,
 .mdl-radio__inner-circle,
 .mdl-radio__ripple-container .mdl-ripple{
-	background: #00305D;
+	background: #01A982;
 }
 .mdl-textfield{
 	width: 100%;
