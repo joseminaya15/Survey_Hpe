@@ -14,7 +14,7 @@ function stopLoading(id) {
 }
 
 function numberRange(id){
-	var buttonSelect = $('#'+id+'.select-one');
+	var buttonSelect = $('#'+id+'.button-number');
 	$('.button-number').removeClass('button-select');
 	buttonSelect.addClass('button-select');
 	if(buttonSelect.hasClass('button-select')){
